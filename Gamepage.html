@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Tetris</title>
+   <link href="Gamepage.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="player">
+        <canvas class="tetris" width="240" height="400"></canvas>
+        <div class="score">
+            <p id="p1score">Player 1 Score: 0</p>
+        </div>
+    </div>
+    <div id="time-display"></div>
+    <div class="player">
+        <canvas class="tetris" width="240" height="400"></canvas>
+        <div class="score">
+            <p id="p2score">Player 2 Score: 0</p>
+        </div>
+    </div>
+    
+    
+  <div class="play-again">
+        <button id="button" onclick="restartGame()">Reset</button> 
+    </div>
+    <script src="board.js"></script>
+    <script src="player.js"></script>
+    <script src="blocks.js"></script>
+    <script src="script.js"></script>
+<script>
+  function restartGame() {
+            window.location.reload();// Reload the page to start a new game
+        }
+
+  </script>
+</body>
+</html>
