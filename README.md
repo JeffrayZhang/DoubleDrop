@@ -3,7 +3,7 @@
 Double Drop is a Tetris-inspired game developed by Olyn and Jeffray. The objective of the game is to stack falling blocks in order to complete horizontal lines and score points.
 
 ## Video Demo
-
+![double-drop video demo](https://github.com/JeffrayZhang/DoubleDrop/blob/main/double-drop.gif)
 
 ## How to Play:
 Open the game by running the index.html file in a web browser.
